@@ -21,6 +21,5 @@ document.getElementById("searchValue").onclick = function getInputValue() {
       html += `<div><p>${listOfThings[i].output} ❌ </p></div>`;
     }
   }
-
   document.querySelector("#searchResults").innerHTML = html;
 };
